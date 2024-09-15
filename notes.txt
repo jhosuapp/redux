@@ -1,0 +1,3 @@
+¿Qué es redux?
+
+Redux es un contenedor predecible del estado de nuestra aplicación
