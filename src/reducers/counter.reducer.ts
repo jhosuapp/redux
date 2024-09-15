@@ -1,4 +1,4 @@
-import { counterType } from '../types/counter.type';
+import { counterType } from '../types/index';
 import { counterModelAction, counterModelInitialState } from '../models/counter.model';
 
 

@@ -1,4 +1,4 @@
-import { counterModelType } from '../models/counter.model';
+import { counterModelType } from '../models/index';
 
 const counterType:counterModelType = {
     increment: '[COUNTER] Increment',
