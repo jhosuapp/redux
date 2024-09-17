@@ -11,11 +11,11 @@ const Counter = ():JSX.Element => {
     return (
         <>
             <button
-                onClick={ () => dispatch(counterIncrement()) }
+                onClick={ () => dispatch(counterIncrement(2)) }
             >+1</button>
                 <p>contador { count }</p>
             <button
-                onClick={ () => dispatch(counterDecrement()) }
+                onClick={ () => dispatch(counterDecrement(3)) }
             >-1</button>
         </>
     )

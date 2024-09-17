@@ -9,10 +9,10 @@ const initial_state:counterModelInitialState = {
 const counterReducer = (state = initial_state, action:counterModelAction):counterModelInitialState => {
     switch(action.type){
         case counterType.decrement: {
-            return {...state, count: state.count - 1};
+            return {...state, count: state.count - action.payload};
         }
         case counterType.increment: {
-            return {...state, count: state.count + 1};
+            return {...state, count: state.count + action.payload};
         }
         default : {
             return state;

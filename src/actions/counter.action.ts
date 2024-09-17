@@ -1,15 +1,17 @@
 import { counterType } from "../types";
 
-const counterIncrement = ()=> async(dispatch:any) => {
+const counterIncrement = (number: number)=> async(dispatch:any) => {
     dispatch({
-        type: counterType.increment
-    })
+        type: counterType.increment,
+        payload: number
+    });
 }
 
-const counterDecrement = ()=> async(dispatch:any) => {
+const counterDecrement = (number: number)=> async(dispatch:any) => {
     dispatch({
-        type: counterType.decrement
-    })
+        type: counterType.decrement,
+        payload: number
+    });
 }
 
 export { counterIncrement, counterDecrement }

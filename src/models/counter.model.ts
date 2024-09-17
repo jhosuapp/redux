@@ -4,9 +4,10 @@ export type counterModelType = {
 }
 
 export type counterModelInitialState = {
-    count: number
+    count: number;
 }
 
 export type counterModelAction = {
     type: '[COUNTER] Increment' | '[COUNTER] Decrement';
+    payload: number;
 }
