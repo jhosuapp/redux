@@ -8,6 +8,8 @@ const Counter = ():JSX.Element => {
     // Use dispatch
     const dispatch: Dispatch<any> = useAppDispatch()
 
+    console.log(count);
+
     return (
         <>
             <button

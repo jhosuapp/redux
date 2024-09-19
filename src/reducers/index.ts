@@ -1,4 +1,4 @@
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
 import { counterReducer } from './counter.reducer'
 
 export const reducers = combineReducers({
